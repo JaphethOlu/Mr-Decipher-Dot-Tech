@@ -4,9 +4,11 @@
   "description": "A personal website for Japheth",
   "main": "index.js",
   "scripts": {
+    "build:css": "gulp styles",
     "launch": "node src/server/devServer.js",
     "lint:server": "esw -w src/server/*.js",
     "lint:js": "esw -w srcBuild/javascript/*.js",
+    "watch:css": "gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
