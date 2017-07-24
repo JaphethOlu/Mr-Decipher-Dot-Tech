@@ -1,7 +1,7 @@
 {
   "name": "Mr-Decipher-Dot-Tech",
   "version": "1.0.0",
-  "description": "A development environment for React Applications",
+  "description": "A personal website for Japheth",
   "main": "index.js",
   "scripts": {
     "launch": "node src/server/devServer.js",
