@@ -33,6 +33,7 @@
     "chalk": "^2.1.0",
     "eslint": "4.3.x",
     "eslint-watch": "3.1.x",
-    "node-sass": "^4.5.3"
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.11.0"
   }
 }
