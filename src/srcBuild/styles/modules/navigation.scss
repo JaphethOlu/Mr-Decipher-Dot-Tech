@@ -1,22 +1,23 @@
-#nav-bar
+#nav-bar //sass-lint:disable-line no-ids
 {
-    font-family: $font-main;
-    font-size: $nav-size;
-    background-color: $black;
-    max-width: none;
-    ul
+  font-family: $font-main;
+  font-size: $nav-size;
+  background-color: $black;
+  max-width: none;
+
+  ul
+  {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+
+    li
     {
-        padding: 0;
-        margin-top: 0;
-        margin-bottom: 0;
-        list-style-type: none;        
-        li
-        {
-            display: inline;
-            position: relative;  
-            padding-left: 25px;
-            border-right: .5vw;      
-        }
+      display: inline;
+      position: relative;
+      padding-left: 25px;
+      border-right: .5vw;
     }
-    
+  }
 }

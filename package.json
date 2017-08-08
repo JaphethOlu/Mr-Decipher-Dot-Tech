@@ -4,11 +4,12 @@
   "description": "A personal website for Japheth",
   "main": "index.js",
   "scripts": {
-    "build:css": "node sassCompiler.js",
+    "build:css": "npm run lint:sass & npm run compile:sass",
+    "compile:sass": "node sassCompiler.js",
     "prelaunch": "npm run build:css",
     "launch": "node src/server/devServer.js",
     "lint:server": "esw -w src/server/*.js",
-    "lint:sassCompiler": "esw -w sassCompiler.js",
+    "lint:sass": "sass-lint -c .sass-lint.yml src/srcBuild/styles/**/*.scss -v -q",
     "lint:js": "esw -w srcBuild/javascript/*.js",
     "watch:css": "nodemon -e scss -x \"npm run build:css\"",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -34,6 +35,7 @@
     "eslint": "4.3.x",
     "eslint-watch": "3.1.x",
     "node-sass": "4.5.x",
-    "nodemon": "1.11.x"
+    "nodemon": "1.11.x",
+    "sass-lint": "^1.10.2"
   }
 }
