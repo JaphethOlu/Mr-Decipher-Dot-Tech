@@ -4,7 +4,7 @@
   "description": "A personal website for Japheth",
   "main": "index.js",
   "scripts": {
-    "build:css": "npm run lint:sass & npm run compile:sass",
+    "build:css": "npm run compile:sass & npm run lint:sass",
     "compile:sass": "node sassCompiler.js",
     "prelaunch": "npm run compile:sass",
     "launch": "node src/server/devServer.js",

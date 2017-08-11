@@ -2,13 +2,17 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i|Roboto:300,300i,400,400i,500,500i,700,700i');
 
 $black: #000000;
-$sandstone: #4F4F4F;
+$sandstone: #1C1C1C;
 $silver: #C0C0C0;
 $white: #FFFAFA; //Named snow in color codes
 $green: #32CD32;
 
 // Font specification
-$font-main: Roboto;
-$font-sub: "Open Sans";
+$font-main: Roboto, Helvetica, Arial;
+$font-sub: "Open Sans", Courier, Verdana;
+
+// Color specification
+$main-font-color: $white;
+$sub-font-color: $silver;
 $nav-size: 2.3vh;
 $nav-margin: 7vh;
