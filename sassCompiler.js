@@ -11,7 +11,7 @@ sass.render({
         fs.writeFile("./src/production/css/styles.css", result.css, (err) => {
             if(!err) {
                 /*eslint-disable no-console*/
-                console.log(chalk.green.bold("Successfully produced css file ;)"));
+                console.log(chalk.green.bold("Successfully built css file ;)"));
             }
         });
     }
