@@ -1,9 +1,14 @@
+:root
+{
+  @include fluid-typo($min-width, $max-width, $font-size-min, $font-size-max);
+  box-sizing: border-box;
+}
+
 body
 {
-  //aesthetics
+  font-family: $font-main;
   background-color: $sandstone;
   color: $white;
-  //positioning
   padding: 0;
   margin: 0;
 }

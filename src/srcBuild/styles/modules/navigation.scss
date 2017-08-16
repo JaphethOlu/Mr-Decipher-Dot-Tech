@@ -34,17 +34,17 @@
       color: $main-font-color;
     }
 
-    li > a:visited
-    {
-      color: $main-font-color;
-      text-decoration: none;
-    }
-
     li > a:hover
     {
       color: $main-font-color;
       text-decoration: underline;
-      text-decoration-color: green;
+      text-decoration-color: $green;
+    }
+
+    li > a:visited
+    {
+      text-decoration: none;
+      color: $main-font-color;
     }
   }
 }
