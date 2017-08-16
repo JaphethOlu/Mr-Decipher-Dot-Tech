@@ -2,15 +2,16 @@
 {
   font-family: $font-main;
   background-color: $black;
-  color: $main-font-color;
-  max-width: none;
-  padding-top: .3vh;
-  padding-bottom: .3vh;
+  color: $white;
 
   h1
   {
     margin: 0;
-    padding: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 300;
     position: relative;
     display: inline;
   }
@@ -24,19 +25,17 @@
     li
     {
       display: inline;
-      margin-left: $nav-margin;
-      margin-right: $nav-margin;
+      margin: 0;
+      padding: 0;
     }
 
     li > a:link
     {
       text-decoration: none;
-      color: $main-font-color;
     }
 
     li > a:hover
     {
-      color: $main-font-color;
       text-decoration: underline;
       text-decoration-color: $green;
     }
@@ -44,7 +43,7 @@
     li > a:visited
     {
       text-decoration: none;
-      color: $main-font-color;
+      color: $white;
     }
   }
 }
