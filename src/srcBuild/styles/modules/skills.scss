@@ -1,0 +1,31 @@
+section h2
+{
+  font-family: $font-sub;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+section > img
+{
+  width: 3rem;
+  height: 3rem;
+  padding: 0 1rem;
+}
+
+section p
+{
+  display: inline-block;
+}
+
+section ol
+{
+  list-style-type: none;
+  padding: 0 3rem;
+  li
+  {
+    margin: .5rem;
+    display: inline;
+    font-size: 1rem;
+    text-decoration: underline;
+  }
+}
