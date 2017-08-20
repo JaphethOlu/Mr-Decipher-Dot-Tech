@@ -1,6 +1,11 @@
-section h2
+article > section
 {
   font-family: $font-sub;
+  padding-left: 2rem;
+}
+
+section h2
+{
   font-weight: 400;
   font-size: 1rem;
 }
@@ -21,11 +26,32 @@ section ol
 {
   list-style-type: none;
   padding: 0 3rem;
+
   li
   {
     margin: .5rem;
     display: inline;
-    font-size: 1rem;
+    font-size: .8rem;
     text-decoration: underline;
   }
+}
+
+.languages
+{
+  p
+  {
+    font-size: .8rem;
+  }
+}
+
+article h3
+{
+  font-family: $font-sub;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+h3 + p
+{
+  font-size: .8rem;
 }
