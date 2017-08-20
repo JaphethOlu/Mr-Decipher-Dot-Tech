@@ -1,0 +1,28 @@
+article
+{
+  h1
+  {
+
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0.5rem 0;
+    background-color: $black;
+    font-family: $font-main;
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+}
+
+#about
+{
+  padding: 1rem 0;
+}
+
+#about > p
+{
+  font-family: $font-sub;
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding: 0 3rem;
+}
