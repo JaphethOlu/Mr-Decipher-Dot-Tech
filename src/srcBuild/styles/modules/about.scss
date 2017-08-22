@@ -15,13 +15,12 @@ article
   }
 }
 
-// sass-lint:disable no-ids
-#about
+.about
 {
   padding: 1rem 0;
 }
 
-#about > p
+.about > p
 {
   font-family: $font-sub;
   font-size: 0.8rem;

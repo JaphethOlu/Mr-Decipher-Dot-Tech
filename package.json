@@ -11,7 +11,7 @@
     "lint:server": "esw -w src/server/*.js",
     "lint:sass": "sass-lint -c .sass-lint.yml src/srcBuild/styles/**/*.scss -v -q",
     "lint:js": "esw -w srcBuild/javascript/*.js",
-    "tunnelit": "lt --port 3000 --subdomain decipher",
+    "share": "lt --port 3000 --subdomain decipher",
     "watch:css": "nodemon -e scss -x \"npm run build:css\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

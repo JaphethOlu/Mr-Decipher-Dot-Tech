@@ -6,6 +6,7 @@ article > section
 
 section h2
 {
+  font-family: $font-main;
   font-weight: 400;
   font-size: 1rem;
 }
@@ -20,6 +21,13 @@ section > img
 section p
 {
   display: inline-block;
+  font-size: 0.8rem;
+}
+
+section.disciplines p
+{
+  margin: 0;
+  padding-left: 1rem;
 }
 
 section ol
@@ -42,13 +50,6 @@ section ol
   {
     font-size: .8rem;
   }
-}
-
-article h3
-{
-  font-family: $font-sub;
-  font-weight: 400;
-  font-size: 1rem;
 }
 
 h3 + p
