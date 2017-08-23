@@ -60,5 +60,15 @@
       text-decoration: none;
       color: $white;
     }
+
+    li.cv > a
+    {
+      text-decoration: none;
+      background-color: $green;
+      padding: .1rem 1rem;
+      border: 0.05rem solid;
+      border-color: $green;
+      border-radius: 1.5rem;
+    }
   }
 }
