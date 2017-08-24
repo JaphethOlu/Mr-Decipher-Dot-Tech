@@ -1,13 +1,18 @@
-const cleanCSS = require("clean-css");
-const input = "./src/production/css/styles.css";
-const output = new cleanCSS().minify(input);
-const chalk = require("chalk");
 const fs = require("fs");
+const chalk = require("chalk");
+const csso = require("csso");
+const css = fs.readFileSync("./src/production/css/styles.css", "utf-8");
+const result = csso.minify(css, {
+    filename: "./src/production/css/styles.min.css",
+    sourceMap: false
+});
 
-fs.writeFile("./src/production/css/styles.min.css", output, (err) => {
+console.log(chalk.magenta(result.css));
+
+fs.writeFile("./src/production/css/styles.min.css", result.css, (err) => {
     if(err) {
-        console.log(chalk.red(err))
+        console.log(chalk.red(err));
     } else {
-        console.log(chalk.green("CSS has been successflly compressed"))
+        console.log(chalk.green("CSS has been successflly compressed"));
     }
 });
