@@ -13,6 +13,7 @@
     "lint:sass": "sass-lint -c .sass-lint.yml src/srcBuild/styles/**/*.scss -v -q",
     "lint:js": "esw -w srcBuild/javascript/*.js",
     "share": "lt --port 3000 --subdomain decipher",
+    "start": "node src/server/devServer.js",
     "watch:css": "nodemon -e scss -x \"npm run build:css\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -29,6 +30,9 @@
   "homepage": "https://github.com/MrDecipher/Mr-Decipher-Dot-Tech#readme",
   "dependencies": {
     "express": "4.15.x"
+  },
+  "engines": {
+    "node": "6.11.1"
   },
   "devDependencies": {
     "babel-cli": "6.24.x",
