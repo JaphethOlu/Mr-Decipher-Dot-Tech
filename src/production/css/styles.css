@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i|Roboto:300,300i,400,400i");
+:root {
+  box-sizing: border-box; }
+  :root {
+    font-size: 14px; }
+    @media screen and (min-width: 320px) {
+      :root {
+        font-size: calc(14px + 12 * ((100vw - 320px) / 1728)); } }
+    @media screen and (min-width: 2048px) {
+      :root {
+        font-size: 26px; } }
+
+body {
+  font-family: Roboto, Helvetica, Arial;
+  background-color: #1C1C1C;
+  color: #FFFAFA;
+  padding: 0;
+  margin: 0; }
+
+article.main article > h1 {
+  width: 100%; }
+
+.nav-bar {
+  font-family: Roboto, Helvetica, Arial;
+  background-color: #000000;
+  color: #FFFAFA; }
+  .nav-bar h1 {
+    margin: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 2.3rem;
+    font-style: italic;
+    font-weight: 300;
+    position: relative;
+    display: inline;
+    background-color: #32CD32; }
+    .nav-bar h1 a:link {
+      text-decoration: none;
+      color: #FFFAFA; }
+    .nav-bar h1 a:visited {
+      text-decoration: none;
+      color: #FFFAFA; }
+  .nav-bar ul {
+    list-style-type: none;
+    position: relative;
+    display: inline;
+    bottom: 0.45rem; }
+    .nav-bar ul li {
+      display: inline;
+      margin: 0 2rem;
+      padding: 0; }
+    .nav-bar ul li > a:link {
+      text-decoration: none;
+      color: #FFFAFA; }
+    .nav-bar ul li > a:hover {
+      text-decoration: underline;
+      text-decoration-color: #32CD32; }
+    .nav-bar ul li > a:visited {
+      text-decoration: none;
+      color: #FFFAFA; }
+    .nav-bar ul li.cv > a {
+      text-decoration: none;
+      background-color: #32CD32;
+      padding: .1rem 1rem;
+      border: 0.05rem solid;
+      border-color: #32CD32;
+      border-radius: 1.5rem; }
+
+article h1 {
+  display: inline-block;
+  margin: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  background-color: #000000;
+  font-family: Roboto, Helvetica, Arial;
+  font-weight: 400;
+  font-size: 1.5rem; }
+
+.about {
+  padding: 1rem 0; }
+
+.about > p {
+  font-family: "Open Sans", Courier, Verdana;
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding: 0 3rem; }
+
+article > section {
+  font-family: "Open Sans", Courier, Verdana;
+  padding-left: 2rem; }
+
+section h2 {
+  font-family: Roboto, Helvetica, Arial;
+  font-weight: 400;
+  font-size: 1rem; }
+
+section > img {
+  width: 3rem;
+  height: 3rem;
+  padding: 0 1rem; }
+
+section p {
+  display: inline-block;
+  font-size: 0.8rem; }
+
+section.disciplines p {
+  margin: 0;
+  padding-left: 1rem; }
+
+section ol {
+  list-style-type: none;
+  padding: 0 3rem; }
+  section ol li {
+    margin: .5rem;
+    display: inline;
+    font-size: .8rem;
+    text-decoration: underline; }
+
+.languages p {
+  font-size: .8rem; }
+
+h3 + p {
+  font-size: .8rem; }
+
+article.projects > p {
+  padding-left: 2rem; }
+
+article.contact > section {
+  text-align: center;
+  padding: 3rem 0; }
+
+article.contact img {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 2rem; }

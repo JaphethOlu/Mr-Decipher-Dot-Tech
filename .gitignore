@@ -1,7 +1,4 @@
 node_modules
 bower_components
 package-lock.json
-src/production/css
-src/production/js
-src/production/docs
 todo.txt
